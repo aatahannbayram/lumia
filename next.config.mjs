@@ -16,6 +16,10 @@ const nextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "images.pexels.com" },
       { protocol: "https", hostname: "*.storage.*.nhost.run" },
+      {
+        protocol: "https",
+        hostname: "wvyloubhvxkcgqlkjfkp.storage.eu-central-1.nhost.run",
+      },
     ],
   },
   async redirects() {

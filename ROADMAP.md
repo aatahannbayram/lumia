@@ -49,7 +49,7 @@ Component 1 (Hero) ve Component 2 (Hizmetlerimiz ok-listesi) tamamlandı. Kalanl
 ## 🔜 Sonraki Bloklar (özet)
 
 - **C) Analytics:** GA4 (`@next/third-parties/google`), consent banner (KVKK), `booking_completed`/`whatsapp_click` custom event'leri. GA MCP sadece geliştirici aracı, koda girmeyecek.
-- **Faz 2 — Nhost:** Gerçek Postgres + Hasura + Auth + Storage. `data/appointments.json` → Nhost `appointments` tablosuna taşınacak. `ADMIN_USER`/`ADMIN_PASSWORD` Basic Auth → Hasura role-based auth'a taşınacak.
+- **Faz 2 — Nhost:** Proje bağlandı (`wvyloubhvxkcgqlkjfkp` / `eu-central-1`, GitHub `aatahannbayram/lumia`). Client + Apollo provider hazır. Sırada: Hasura migration/metadata, `appointments` tablosu, JSON store → Postgres, admin auth → Hasura roles.
 - **Faz 3 — Tam randevu sihirbazı:** Personel seçimi + personel bazlı müsaitlik (şu an işletme geneli tek havuz).
 - **Faz 4 — Tam Admin/CRM:** Müşteriler, hizmetler CRUD, personel, kampanyalar, KPI dashboard (Recharts).
 - **Faz 5 — AI chat botu + WhatsApp Cloud API (Faz B):** Şu an sadece `wa.me` deep-link (Faz A) var.

@@ -11,6 +11,7 @@ import { getLocalBusinessJsonLd } from "@/lib/schema"
 import { Header } from "@/components/public/header"
 import { Footer } from "@/components/public/footer"
 import { LenisProvider } from "@/components/providers/lenis-provider"
+import { NhostAppProvider } from "@/components/providers/nhost-provider"
 import "@/app/globals.css"
 
 export function generateStaticParams() {
@@ -111,14 +112,16 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <NextIntlClientProvider messages={messages}>
-          <LenisProvider>
-            <div className="flex min-h-screen flex-col">
-              <Header />
-              <main className="flex-1">{children}</main>
-              <Footer />
-            </div>
-            <Toaster richColors position="top-center" />
-          </LenisProvider>
+          <NhostAppProvider>
+            <LenisProvider>
+              <div className="flex min-h-screen flex-col">
+                <Header />
+                <main className="flex-1">{children}</main>
+                <Footer />
+              </div>
+              <Toaster richColors position="top-center" />
+            </LenisProvider>
+          </NhostAppProvider>
         </NextIntlClientProvider>
       </body>
     </html>
