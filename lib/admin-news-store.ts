@@ -176,7 +176,7 @@ function slugify(name: string) {
     .slice(0, 60)
 }
 
-function uniqueSlug(title: string, existing: string[], currentId?: string) {
+function uniqueSlug(title: string, existing: string[]) {
   const base = slugify(title) || "haber"
   if (!existing.includes(base)) return base
   let i = 2
