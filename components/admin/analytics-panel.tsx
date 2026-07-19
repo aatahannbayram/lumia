@@ -29,18 +29,20 @@ export function AnalyticsPanel({ stats, compact = false }: AnalyticsPanelProps) 
             <div>
               <p className="font-heading text-sm font-bold text-lumia-dark">Google Analytics</p>
               <p className="text-[10px] text-muted-foreground">
-                {stats.measurementId ? `ID: ${stats.measurementId}` : "Demo veri · GA ID ekleyin"}
+                {stats.measurementId
+                  ? `ID: ${stats.measurementId} · panel tahmini (GA API değil)`
+                  : "Demo veri · GA ID ekleyin"}
               </p>
             </div>
           </div>
           <Badge
             className={
               stats.connected
-                ? "bg-emerald-100 text-emerald-800"
+                ? "bg-amber-100 text-amber-900"
                 : "bg-neutral-100 text-neutral-700"
             }
           >
-            {stats.connected ? "Bağlı" : "Demo"}
+            {stats.connected ? "Etiket var · demo sayılar" : "Demo"}
           </Badge>
         </div>
 

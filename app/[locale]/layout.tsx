@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server"
 import { notFound } from "next/navigation"
@@ -87,6 +88,7 @@ export default async function LocaleLayout({
 
   const tHero = await getTranslations({ locale, namespace: "Hero" })
   const jsonLd = getLocalBusinessJsonLd({ locale, description: tHero("description") })
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim()
 
   const fontVars =
     dir === "rtl"
@@ -123,6 +125,7 @@ export default async function LocaleLayout({
             </LenisProvider>
           </NhostAppProvider>
         </NextIntlClientProvider>
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   )

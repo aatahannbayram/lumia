@@ -12,6 +12,7 @@
   "dependencies": {
     "@apollo/client": "^3.14.1",
     "@hookform/resolvers": "^5.4.0",
+    "@next/third-parties": "^14.2.35",
     "@nhost/nextjs": "^2.3.1",
     "@nhost/react-apollo": "^18.0.2",
     "@radix-ui/react-accordion": "^1.2.16",
