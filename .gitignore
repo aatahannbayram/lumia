@@ -26,10 +26,21 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
 
 # vercel
 .vercel
+
+# local appointment data (customer PII — real DB in Faz 2 via Nhost)
+/data/
+
+# uploaded media (keep folder via .gitkeep; allow curated site assets)
+/public/uploads/*
+!/public/uploads/.gitkeep
+!/public/uploads/sac-boyama.png
+!/public/uploads/intro-portrait.png
+
 
 # typescript
 *.tsbuildinfo

@@ -1,0 +1,242 @@
+{
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now",
+    "menu": "Menu",
+    "call": "Call",
+    "news": "News",
+    "blog": "Blog"
+  },
+  "News": {
+    "eyebrow": "From the salon",
+    "pageTitle": "News",
+    "pageDescription": "Campaigns, announcements and the latest from Lumia.",
+    "homeTitle": "Latest News",
+    "readMore": "Read story",
+    "viewAll": "All news",
+    "relatedTitle": "More news",
+    "share": "Share",
+    "shareHint": "Share this story with friends",
+    "ctaTitle": "Book your appointment today",
+    "ctaDescription": "Don’t miss campaigns and updates — reserve your spot at our Bomonti salon.",
+    "ctaButton": "Book Now"
+  },
+  "Blog": {
+    "eyebrow": "Tips & Guides",
+    "pageTitle": "Blog",
+    "pageDescription": "Hair care, nail care and beauty tips from Lumia experts in Bomonti, Istanbul.",
+    "homeTitle": "From the Blog",
+    "readMore": "Read more",
+    "viewAll": "All posts",
+    "minRead": "min read",
+    "relatedTitle": "Related posts",
+    "ctaTitle": "Book your appointment",
+    "ctaDescription": "Plan hair and nail care at our Bomonti salon online in seconds.",
+    "ctaButton": "Book Now"
+  },
+  "Hero": {
+    "eyebrow": "Istanbul's Next-Gen Beauty Center",
+    "title": "Make Time for You, Discover Your Glow",
+    "description": "Expert hair and nail care at Lumia, in a warm atmosphere — book in seconds with our smart appointment system.",
+    "ctaPrimary": "Book Appointment",
+    "ctaSecondary": "Explore Services",
+    "cardHairTitle": "Hair Care",
+    "cardHairDesc": "Blow-dry, cut and color expertise",
+    "cardNailTitle": "Nail Care",
+    "cardNailDesc": "Manicure, pedicure and nail extensions",
+    "galleryLabel": "Gallery"
+  },
+  "Home": {
+    "introEyebrow": "The Lumia Difference",
+    "introTitle": "Where Beauty and Confidence Begin",
+    "introDescription": "With our experienced specialists and premium products, we're here to make you feel renewed with every visit.",
+    "introCta": "Contact Us",
+    "servicesEyebrow": "What We Offer",
+    "servicesTitle": "Services We Provide",
+    "servicesCta": "All Services",
+    "spotlightEyebrow": "Featured",
+    "spotlightTitle": "This Month's Favorite",
+    "spotlightSubtitle": "Discover the most requested transformation from our Lumia experts",
+    "spotlightCta": "Book Now",
+    "transformationEyebrow": "Holistic Approach",
+    "transformationTitle": "An Exclusive Beauty Transformation Awaits",
+    "transformationCta": "See All Services",
+    "galleryEyebrow": "Portfolio",
+    "galleryTitle": "Our Latest Work",
+    "gallerySubtitle": "Take a look at our newest hair and nail creations",
+    "galleryCta": "View Gallery",
+    "testimonialsEyebrow": "Testimonials",
+    "testimonialsTitle": "What Our Guests Say",
+    "locationEyebrow": "Find Us",
+    "locationTitle": "Visit Our Salon",
+    "locationCta": "Get Directions",
+    "ctaBandTitle": "Plan Your Appointment Today",
+    "ctaBandDescription": "Pick your favorite specialist and time slot in under 60 seconds.",
+    "ctaBandButton": "Book Now"
+  },
+  "Services": {
+    "pageTitle": "Our Services",
+    "pageDescription": "Everything you need for hair and nail care, in expert hands with premium products.",
+    "filterAll": "All",
+    "categoryHair": "Hair",
+    "categoryNail": "Nails",
+    "duration": "Duration",
+    "minutesShort": "min",
+    "priceFrom": "Starting from",
+    "book": "Book Now",
+    "detailsCta": "View Details",
+    "detailDescriptionTitle": "About This Service",
+    "detailGalleryTitle": "Example Work",
+    "relatedTitle": "You May Also Like",
+    "notFoundTitle": "Service not found",
+    "notFoundDescription": "The service you're looking for doesn't exist or may have been removed.",
+    "backToServices": "Back to Services",
+    "countLabel": "services",
+    "emptyFilter": "No services in this category yet."
+  },
+  "ServiceCategories": {
+    "hair": "Hair",
+    "nail": "Nails"
+  },
+  "ServiceItems": {
+    "fon": {
+      "name": "Blow-dry",
+      "shortDescription": "Long-lasting, voluminous blow-dry with professional brush technique.",
+      "description": "Our expert stylists create a natural, voluminous, long-lasting blow-dry tailored to your hair type, using the right brush and heat techniques — perfect for everyday shine or a special occasion."
+    },
+    "sac-kesim": {
+      "name": "Haircut",
+      "shortDescription": "Personalized cut consultation suited to your face shape.",
+      "description": "With a detailed consultation before every cut, we determine the style that best suits your face shape, hair texture and lifestyle, blending classic and trending techniques."
+    },
+    "sac-boyama": {
+      "name": "Hair Coloring",
+      "shortDescription": "Vibrant, healthy results from a personalized color analysis.",
+      "description": "From global color to balayage, ombre and root touch-ups, our professional application uses premium products that protect your hair's health."
+    },
+    "manikur": {
+      "name": "Manicure",
+      "shortDescription": "A classic manicure for a polished, elegant look.",
+      "description": "Combining hand and nail care, our classic manicure service leaves your hands looking polished and elegant."
+    },
+    "pedikur": {
+      "name": "Pedicure",
+      "shortDescription": "Full renewal with foot care and relaxing touches.",
+      "description": "Including exfoliation, moisture treatment and professional nail shaping, our pedicure service will leave your feet feeling brand new."
+    },
+    "kalici-oje": {
+      "name": "Gel Polish",
+      "shortDescription": "Weeks of shine and color that lasts.",
+      "description": "Applied with UV/LED curing technology, our gel polish keeps its shine for weeks without chipping or fading."
+    },
+    "protez-tirnak": {
+      "name": "Nail Extensions",
+      "shortDescription": "Long, durable, natural-looking nails with gel or acrylic technique.",
+      "description": "Shaped with gel or acrylic technique based on your needs, our nail extensions offer a natural look with high durability."
+    }
+  },
+  "Portfolio": {
+    "pageTitle": "Portfolio",
+    "pageDescription": "A curated selection of hair and nail work by the Lumia team.",
+    "filterAll": "All"
+  },
+  "About": {
+    "pageTitle": "About Us",
+    "heroEyebrow": "Our Story",
+    "heroTitle": "Where Beauty Meets Care and Expertise",
+    "heroDescription": "Lumia was founded to turn beauty care into a warm, welcoming experience. We aim for every guest to leave our salon feeling better than when they arrived.",
+    "valuesTitle": "Our Values",
+    "valueQualityTitle": "Expertise",
+    "valueQualityDesc": "An experienced team that's always learning.",
+    "valueCareTitle": "Care",
+    "valueCareDesc": "A personalized, fully attentive approach for every guest.",
+    "valueQualityProductsTitle": "Premium Products",
+    "valueQualityProductsDesc": "Quality products that prioritize hair and skin health.",
+    "teamTitle": "Our Team",
+    "teamDescription": "Meet our expert stylists and nail care specialists."
+  },
+  "Contact": {
+    "pageTitle": "Contact",
+    "pageDescription": "Reach out with questions, or book an appointment directly.",
+    "formName": "Full Name",
+    "formPhone": "Phone",
+    "formEmail": "Email",
+    "formMessage": "Your Message",
+    "formSubmit": "Send",
+    "infoTitle": "Contact Information",
+    "addressTitle": "Address",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "hoursTitle": "Working Hours",
+    "hoursValue": "Every day 09:00 - 20:00",
+    "mapTitle": "Our Location",
+    "whatsappCta": "Message on WhatsApp",
+    "callCta": "Call Now"
+  },
+  "Footer": {
+    "description": "Lumia — hair & nail care in a modern, warm atmosphere.",
+    "quickLinksTitle": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "followTitle": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "Booking": {
+    "pageTitle": "Book an Appointment",
+    "subtitle": "Add services to your cart, share your details, and confirm on WhatsApp in seconds.",
+    "stepService": "Choose Services",
+    "stepDetails": "Your Details",
+    "selectPrompt": "You can select one or more services",
+    "add": "Add",
+    "added": "Added",
+    "cartTitle": "Selected Services",
+    "cartEmpty": "You haven't selected any services yet.",
+    "cartEmptyHint": "Pick services on the left to add them to your cart.",
+    "durationTotal": "Total Duration",
+    "priceTotal": "Total Price",
+    "couponLabel": "Coupon Code (optional)",
+    "couponPlaceholder": "Enter a coupon code if you have one",
+    "nextStep": "Continue",
+    "backStep": "Back",
+    "formName": "Full Name",
+    "formPhone": "Phone",
+    "formEmail": "Email (optional)",
+    "formDate": "Choose a Date",
+    "formTime": "Choose a Time",
+    "loadingSlots": "Loading available times...",
+    "noSlots": "No times left on this date, try another day.",
+    "selectDateFirst": "Pick a date and time to continue.",
+    "saveSuccess": "Your request was received — confirm it on WhatsApp.",
+    "saveError": "Something went wrong, please try again.",
+    "slotTakenError": "That time was just booked, please pick another slot.",
+    "formNote": "Anything else to add (optional)",
+    "confirmCta": "Create Reservation",
+    "confirmHint": "Confirming opens WhatsApp with a message summarizing your selection — our team will get back to you.",
+    "waGreeting": "Hi Lumia, I'd like to book an appointment.",
+    "waServicesLabel": "Requested services",
+    "waTotalLabel": "Total",
+    "waNameLabel": "Full name",
+    "waPhoneLabel": "Phone",
+    "waDateLabel": "Preferred date/time",
+    "waNoteLabel": "Note",
+    "waCouponLabel": "Coupon code"
+  },
+  "Testimonials": {
+    "quote1": "This is the first time my hair color has looked this natural and vibrant. I truly trust the Lumia team.",
+    "quote2": "Booking was incredibly easy, and the salon is just as warm and elegant. I highly recommend it.",
+    "quote3": "My nail extensions still look as good as day one, weeks later. You can really tell the care they put in."
+  },
+  "Common": {
+    "currency": "₺",
+    "loading": "Loading...",
+    "book": "Book Now",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "readMore": "Read More"
+  }
+}

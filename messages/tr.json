@@ -1,0 +1,242 @@
+{
+  "Nav": {
+    "home": "Anasayfa",
+    "services": "Hizmetler",
+    "portfolio": "Portfolyo",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "book": "Randevu Al",
+    "menu": "Menü",
+    "call": "Ara",
+    "news": "Haberler",
+    "blog": "Blog"
+  },
+  "News": {
+    "eyebrow": "Salon’dan",
+    "pageTitle": "Haberler",
+    "pageDescription": "Kampanyalar, duyurular ve Lumia’dan güncel gelişmeler.",
+    "homeTitle": "Güncel Haberler",
+    "readMore": "Haberi oku",
+    "viewAll": "Tüm haberler",
+    "relatedTitle": "Diğer haberler",
+    "share": "Paylaş",
+    "shareHint": "Bu haberi arkadaşlarınla paylaş",
+    "ctaTitle": "Randevunu bugün planla",
+    "ctaDescription": "Kampanya ve duyuruları kaçırma — Bomonti salonumuzda yerini ayırt.",
+    "ctaButton": "Randevu Al"
+  },
+  "Blog": {
+    "eyebrow": "İpuçları & Rehberler",
+    "pageTitle": "Blog",
+    "pageDescription": "Saç bakımı, tırnak bakımı ve güzellik ipuçları — Bomonti Lumia uzmanlarından SEO dostu rehberler.",
+    "homeTitle": "Blog’dan Öne Çıkanlar",
+    "readMore": "Devamını oku",
+    "viewAll": "Tüm yazılar",
+    "minRead": "dk okuma",
+    "relatedTitle": "İlgili yazılar",
+    "ctaTitle": "Randevunu hemen planla",
+    "ctaDescription": "Bomonti salonumuzda saç ve tırnak bakımını online randevu ile saniyeler içinde ayarla.",
+    "ctaButton": "Randevu Al"
+  },
+  "Hero": {
+    "eyebrow": "İstanbul'un Yeni Nesil Güzellik Merkezi",
+    "title": "Kendine Ayır, Işıltını Keşfet",
+    "description": "Lumia'da uzman ellerde saç ve tırnak bakımı; sıcak bir atmosferde, akıllı randevu sistemiyle saniyeler içinde planla.",
+    "ctaPrimary": "Randevu Al",
+    "ctaSecondary": "Hizmetleri Keşfet",
+    "cardHairTitle": "Saç Bakımı",
+    "cardHairDesc": "Fön, kesim ve boyama uzmanlığı",
+    "cardNailTitle": "Tırnak Bakımı",
+    "cardNailDesc": "Manikür, pedikür ve protez tırnak",
+    "galleryLabel": "Galeri"
+  },
+  "Home": {
+    "introEyebrow": "Lumia Farkı",
+    "introTitle": "Güzelliğin ve Özgüveninin Başladığı Yer",
+    "introDescription": "Deneyimli uzman kadromuz ve premium ürünlerimizle, her ziyaretinizde kendinizi yenilenmiş hissetmeniz için buradayız.",
+    "introCta": "İletişime Geç",
+    "servicesEyebrow": "Neler Sunuyoruz",
+    "servicesTitle": "Verilen Hizmetler",
+    "servicesCta": "Tüm Hizmetler",
+    "spotlightEyebrow": "Öne Çıkan",
+    "spotlightTitle": "Bu Ayın Gözdesi",
+    "spotlightSubtitle": "Lumia uzmanlarının en çok tercih edilen dönüşümünü keşfedin",
+    "spotlightCta": "Randevu Al",
+    "transformationEyebrow": "Bütünsel Yaklaşım",
+    "transformationTitle": "Eşsiz Bir Güzellik Dönüşümü Sizi Bekliyor",
+    "transformationCta": "Tüm Hizmetleri Gör",
+    "galleryEyebrow": "Portfolyo",
+    "galleryTitle": "Son Çalışmalarımız",
+    "gallerySubtitle": "Saç ve tırnaktaki en yeni işlerimize göz atın",
+    "galleryCta": "Galeriyi Gör",
+    "testimonialsEyebrow": "Müşteri Yorumları",
+    "testimonialsTitle": "Bize Güvenenler Ne Diyor?",
+    "locationEyebrow": "Bize Ulaşın",
+    "locationTitle": "Salonumuzu Ziyaret Edin",
+    "locationCta": "Yol Tarifi Al",
+    "ctaBandTitle": "Randevunuzu Bugün Planlayın",
+    "ctaBandDescription": "60 saniyeden kısa sürede, size en uygun uzman ve saati seçin.",
+    "ctaBandButton": "Hemen Randevu Al"
+  },
+  "Services": {
+    "pageTitle": "Hizmetlerimiz",
+    "pageDescription": "Saç ve tırnak bakımında ihtiyacınız olan her şey, uzman ellerde ve premium ürünlerle.",
+    "filterAll": "Tümü",
+    "categoryHair": "Saç",
+    "categoryNail": "Tırnak",
+    "duration": "Süre",
+    "minutesShort": "dk",
+    "priceFrom": "Başlangıç fiyatı",
+    "book": "Randevu Al",
+    "detailsCta": "Detayları Gör",
+    "detailDescriptionTitle": "Hizmet Hakkında",
+    "detailGalleryTitle": "Örnek Çalışmalar",
+    "relatedTitle": "Benzer Hizmetler",
+    "notFoundTitle": "Hizmet bulunamadı",
+    "notFoundDescription": "Aradığınız hizmet mevcut değil ya da kaldırılmış olabilir.",
+    "backToServices": "Hizmetlere Dön",
+    "countLabel": "hizmet",
+    "emptyFilter": "Bu kategoride henüz hizmet yok."
+  },
+  "ServiceCategories": {
+    "hair": "Saç",
+    "nail": "Tırnak"
+  },
+  "ServiceItems": {
+    "fon": {
+      "name": "Fön",
+      "shortDescription": "Profesyonel fırça tekniğiyle uzun süre kalıcı, hacimli fön.",
+      "description": "Uzman stilistlerimiz, saç yapınıza uygun fırça ve ısı teknikleriyle doğal, hacimli ve uzun süre kalıcı bir fön oluşturur. Özel gün ya da günlük bakım fark etmeksizin ışıltılı bir görünüm için idealdir."
+    },
+    "sac-kesim": {
+      "name": "Saç Kesim",
+      "shortDescription": "Yüz hatlarınıza uygun, kişiye özel kesim danışmanlığı.",
+      "description": "Kesim öncesi detaylı danışmanlık ile yüz şeklinize, saç dokunuza ve yaşam tarzınıza en uygun kesimi birlikte belirliyoruz. Klasik ve trend teknikler bir arada."
+    },
+    "sac-boyama": {
+      "name": "Saç Boyama",
+      "shortDescription": "Kişiye özel renk analiziyle canlı ve sağlıklı sonuçlar.",
+      "description": "Global boyama, balyaj, ombre ve kök boyası dahil tüm renk ihtiyaçlarınız için saç sağlığını koruyan premium ürünlerle profesyonel uygulama."
+    },
+    "manikur": {
+      "name": "Manikür",
+      "shortDescription": "Klasik manikür ile bakımlı ve zarif bir görünüm.",
+      "description": "El ve tırnak bakımını bir araya getiren klasik manikür hizmetimizle elleriniz bakımlı ve zarif bir görünüme kavuşur."
+    },
+    "pedikur": {
+      "name": "Pedikür",
+      "shortDescription": "Ayak bakımı ve rahatlatıcı dokunuşlarla tam bir yenilenme.",
+      "description": "Peeling, nem bakımı ve profesyonel tırnak şekillendirmeyi içeren pedikür hizmetimizle ayaklarınız kendini yeniden doğmuş gibi hissedecek."
+    },
+    "kalici-oje": {
+      "name": "Kalıcı Oje",
+      "shortDescription": "Haftalarca sürecek parlaklık ve renk kalıcılığı.",
+      "description": "UV/LED kürleme teknolojisiyle uygulanan kalıcı ojemiz, haftalarca kırılma ve solma yapmadan parlaklığını korur."
+    },
+    "protez-tirnak": {
+      "name": "Protez Tırnak",
+      "shortDescription": "Jel veya akrilik teknikle uzun, dayanıklı ve doğal tırnaklar.",
+      "description": "İhtiyacınıza göre jel veya akrilik teknikle şekillendirilen protez tırnaklarımız, doğal görünüm ve yüksek dayanıklılık sunar."
+    }
+  },
+  "Portfolio": {
+    "pageTitle": "Portfolyo",
+    "pageDescription": "Lumia uzmanlarının elinden çıkan saç ve tırnak çalışmalarından bir seçki.",
+    "filterAll": "Tümü"
+  },
+  "About": {
+    "pageTitle": "Hakkımızda",
+    "heroEyebrow": "Hikayemiz",
+    "heroTitle": "Güzellik, Özen ve Uzmanlıkla Buluşuyor",
+    "heroDescription": "Lumia, güzellik bakımını sıcak ve samimi bir deneyime dönüştürmek amacıyla kuruldu. Her misafirimizin salonumuzdan kendini daha iyi hissederek ayrılmasını hedefliyoruz.",
+    "valuesTitle": "Değerlerimiz",
+    "valueQualityTitle": "Uzmanlık",
+    "valueQualityDesc": "Alanında deneyimli, sürekli eğitim alan bir ekip.",
+    "valueCareTitle": "Özen",
+    "valueCareDesc": "Her misafire kişiye özel, tam dikkatle yaklaşım.",
+    "valueQualityProductsTitle": "Premium Ürünler",
+    "valueQualityProductsDesc": "Saç ve cilt sağlığını önceleyen kaliteli ürünler.",
+    "teamTitle": "Ekibimiz",
+    "teamDescription": "Alanında uzman stilistlerimiz ve tırnak bakım uzmanlarımızla tanışın."
+  },
+  "Contact": {
+    "pageTitle": "İletişim",
+    "pageDescription": "Sorularınız için bize ulaşın ya da doğrudan randevu oluşturun.",
+    "formName": "Ad Soyad",
+    "formPhone": "Telefon",
+    "formEmail": "E-posta",
+    "formMessage": "Mesajınız",
+    "formSubmit": "Gönder",
+    "infoTitle": "İletişim Bilgileri",
+    "addressTitle": "Adres",
+    "phoneTitle": "Telefon",
+    "emailTitle": "E-posta",
+    "hoursTitle": "Çalışma Saatleri",
+    "hoursValue": "Her gün 09:00 - 20:00",
+    "mapTitle": "Konumumuz",
+    "whatsappCta": "WhatsApp'tan Yaz",
+    "callCta": "Hemen Ara"
+  },
+  "Footer": {
+    "description": "Lumia — modern ve sıcak bir atmosferde saç & tırnak bakımı.",
+    "quickLinksTitle": "Hızlı Bağlantılar",
+    "servicesTitle": "Hizmetler",
+    "contactTitle": "İletişim",
+    "followTitle": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "Booking": {
+    "pageTitle": "Randevu Al",
+    "subtitle": "Hizmetlerinizi sepete ekleyin, bilgilerinizi girin, WhatsApp üzerinden saniyeler içinde onaylayın.",
+    "stepService": "Hizmet Seç",
+    "stepDetails": "Bilgileriniz",
+    "selectPrompt": "Bir veya birden fazla hizmet seçebilirsiniz",
+    "add": "Ekle",
+    "added": "Eklendi",
+    "cartTitle": "Seçilen Hizmetler",
+    "cartEmpty": "Henüz hizmet seçmediniz.",
+    "cartEmptyHint": "Sepetinize eklemek için soldaki hizmetlerden seçim yapın.",
+    "durationTotal": "Toplam Süre",
+    "priceTotal": "Toplam Tutar",
+    "couponLabel": "Kupon Kodu (opsiyonel)",
+    "couponPlaceholder": "Varsa kupon kodunuzu yazın",
+    "nextStep": "Devam Et",
+    "backStep": "Geri",
+    "formName": "Ad Soyad",
+    "formPhone": "Telefon",
+    "formEmail": "E-posta (opsiyonel)",
+    "formDate": "Tarih Seçin",
+    "formTime": "Saat Seçin",
+    "loadingSlots": "Uygun saatler yükleniyor...",
+    "noSlots": "Bu tarihte uygun saat kalmadı, başka bir gün seçin.",
+    "selectDateFirst": "Devam etmek için önce bir tarih ve saat seçin.",
+    "saveSuccess": "Randevu talebiniz alındı, WhatsApp'ta onaylayın.",
+    "saveError": "Bir şeyler ters gitti, lütfen tekrar deneyin.",
+    "slotTakenError": "Bu saat az önce doldu, lütfen başka bir saat seçin.",
+    "formNote": "Eklemek istediğiniz not (opsiyonel)",
+    "confirmCta": "Rezervasyon Oluştur",
+    "confirmHint": "Onayladığınızda WhatsApp'ta seçimlerinizle dolu bir mesaj açılır; ekibimiz size dönüş yapar.",
+    "waGreeting": "Merhaba Lumia, randevu almak istiyorum.",
+    "waServicesLabel": "Talep edilen hizmetler",
+    "waTotalLabel": "Toplam",
+    "waNameLabel": "Ad Soyad",
+    "waPhoneLabel": "Telefon",
+    "waDateLabel": "Tercih edilen tarih/saat",
+    "waNoteLabel": "Not",
+    "waCouponLabel": "Kupon kodu"
+  },
+  "Testimonials": {
+    "quote1": "Saç boyamamı ilk kez bu kadar doğal ve canlı gördüm. Lumia ekibine gerçekten güveniyorum.",
+    "quote2": "Randevu almak inanılmaz kolay, salon da bir o kadar sıcak ve şık. Kesinlikle tavsiye ederim.",
+    "quote3": "Protez tırnaklarım haftalar sonra hâlâ ilk günkü gibi. Emek ve özen çok belli oluyor."
+  },
+  "Common": {
+    "currency": "₺",
+    "loading": "Yükleniyor...",
+    "book": "Randevu Al",
+    "call": "Ara",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "readMore": "Devamını Oku"
+  }
+}

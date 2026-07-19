@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lumia — Güzellik Merkezi Platformu
 
-## Getting Started
+Randevu + vitrin + yönetim paneli (CRM) platformu. Detaylı ürün spesifikasyonu için proje sahibiyle paylaşılan master prompt'a bakın.
 
-First, run the development server:
+## Teknoloji Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js 14** (App Router) + TypeScript (strict) — `output: "standalone"` ile Hostinger Node.js runtime'ında çalışacak şekilde yapılandırıldı
+- **Tailwind CSS** + shadcn/ui bileşenleri (manuel entegre edildi, bkz. `components/ui`) + lucide-react + Framer Motion (ileride eklenecek mikro-animasyonlar)
+- **i18n:** next-intl — TR (varsayılan) / EN / AR (RTL) / RU, `messages/*.json`
+- **Backend (Faz 2'de bağlanacak):** Nhost — Postgres + Hasura GraphQL + Auth + Storage
+- **Form & doğrulama:** react-hook-form + zod
+- **Tarih/saat:** date-fns + date-fns-tz (Faz 3 — availability engine)
+- **Grafikler (Faz 4 — admin dashboard):** Recharts
+
+## Proje Yapısı
+
+```
+/app/[locale]
+  /(root)            page.tsx (Home), hizmetler, hizmet/[slug], portfolyo, hakkimizda, iletisim, randevu
+/components
+  /ui                shadcn tabanlı bileşenler
+  /public            header, footer, hero, service-card, section'lar...
+/lib
+  /data              seed veriler (services, portfolio, testimonials, staff, media)
+  config.ts          işletme bilgileri (telefon, WhatsApp, adres, harita)
+  fonts.ts           Poppins (latin) + Noto Kufi/Sans Arabic (AR)
+  format.ts          fiyat formatlama (Intl.NumberFormat)
+/messages            tr.json, en.json, ar.json, ru.json
+/i18n                next-intl routing/navigation/request config
+/types               paylaşılan TypeScript tipleri
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Geliştirme
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`http://localhost:3000` (dolu ise otomatik olarak sıradaki boş porta geçer, örn. 3001).
 
-## Learn More
+## Durum — Faz İlerlemesi
 
-To learn more about Next.js, take a look at the following resources:
+- [x] **Faz 0:** Proje kurulumu, Tailwind/shadcn/i18n, tasarım token'ları, layout iskeleti
+- [x] **Faz 1:** Public vitrin (Home, Hizmetler, Hizmet Detay, Portfolyo, Hakkımızda, İletişim) — 4 dil + RTL, seed veriyle
+- [ ] **Faz 2:** Nhost projesi + Hasura migration/metadata (permissions) + seed + Auth
+- [ ] **Faz 3:** Availability engine + Randevu sihirbazı (uçtan uca)
+- [ ] **Faz 4:** Admin/CRM paneli
+- [ ] **Faz 5:** AI chat botu + WhatsApp entegrasyonu (Faz A tamamlandı: `/randevu` sayfasında hizmet başına `wa.me` deep-link; Faz B — Cloud API webhook — bekliyor)
+- [ ] **Faz 6:** Cila — animasyonlar, SEO derinleştirme, testler, deploy talimatları
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`/randevu` şu an geçici bir sayfa: her hizmet için WhatsApp'a önceden doldurulmuş mesajla yönlendirir. Gerçek çok adımlı randevu sihirbazı Faz 3'te gelecek.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Ortam Değişkenleri
 
-## Deploy on Vercel
+`.env.example` dosyasına bakın. Faz 2'ye kadar hiçbir değişken zorunlu değildir (site tamamen statik seed veriyle çalışır).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Hostinger Deploy (Node.js)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. `npm run build` — `output: "standalone"` sayesinde `.next/standalone` klasörü minimal bir Node sunucusu içerir.
+2. **hPanel → Setup Node.js App** ile yeni bir Node uygulaması oluşturun, giriş dosyası olarak `.next/standalone/server.js` gösterin; `.next/static` ve `public/` klasörlerini `.next/standalone/.next/static` ve `.next/standalone/public` altına kopyalayın.
+3. Alternatif olarak VPS'te: `pm2 start .next/standalone/server.js --name lumia` + Nginx reverse proxy (443 → 3000).
+4. Ortam değişkenlerini (bkz. `.env.example`) Node uygulamasının ortam ayarlarına girin.
+5. Backend tamamen Nhost Cloud'da barınır — Hostinger tarafında ekstra veritabanı kurulumu gerekmez.
