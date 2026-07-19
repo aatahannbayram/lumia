@@ -1,7 +1,7 @@
 export const site = {
   name: "Lumia",
   legalName: "Lumia C32",
-  domain: "lumiaclub.com",
+  domain: "www.lumiaclub.com",
   email: "info@lumiaclub.com",
   phoneRaw: "905396007332",
   phoneDisplay: "+90 539 600 73 32",

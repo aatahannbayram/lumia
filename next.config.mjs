@@ -25,6 +25,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [{ type: "host", value: "lumiaclub.com" }],
+        destination: "https://www.lumiaclub.com/:path*",
+        permanent: true,
+      },
+      {
         source: "/:locale/blog",
         destination: "/:locale",
         permanent: true,
